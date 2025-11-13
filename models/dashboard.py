@@ -14,7 +14,7 @@ class Dashboard(models.Model):
 
 
     def custom_dashboard(self, cr, uid, start_date=None, end_date=None, context=None):
-        result={'opd':100,'bill':500,'other':450,'sting':'strings value'}
+        result={'opd_genearl':100,'bill_general':500,'other':450,'sting':'strings value'}
         return result  
 
     def _compute_field_list(self):
